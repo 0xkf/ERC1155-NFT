@@ -11,3 +11,12 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+
+
+Cannot find module 'hardhat'
+=>npm install --save-dev hardhat
+
+npx hardhat compile
+npx hardhat clean    
+node scripts/deploy.js
